@@ -1,0 +1,10 @@
+bitwise 
+right shift operator >>
+left << 
+unsigned right >>>
+
+>>> n == /2.pow(n)
+
+use bit operator instead of math "/" to avoid unsigned-ness and large number in case of exceeding the limit?
+
+<< n =  *2.pow(n)
