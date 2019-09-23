@@ -1,0 +1,27 @@
+import java.util.*
+Scanner in = new Scanner(System.in)
+in.nextLine
+in.nextInt
+in.next
+hasNext
+
+
+
+formatted output
+
+System.out.printf("%8.2f",x)
+
+
+time format 
+
+%tc   full date 
+%tF 2019-09-23
+%tD 09/23/2019 (us format)
+......
+
+
+
+read file 
+new Scanner(Paths.get("myfile.txt"),"utf-8")
+
+printWriter

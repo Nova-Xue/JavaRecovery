@@ -1,0 +1,12 @@
+compare string 
+
+use .equals or .equalsIgnoreCase
+
+== is not always true
+
+""  is not equal to null
+
+stringBuffer old 
+stringBuilder new (since 1.5)
+
+

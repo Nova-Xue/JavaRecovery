@@ -1,0 +1,12 @@
+for (int element : a) statement
+
+
+Arrays.copyOf()
+
+same position in memory
+
+.sort()
+based on quick sort
+
+
+.deepToString()
