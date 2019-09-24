@@ -1,0 +1,89 @@
+class  -> construct a object 
+
+this process is called an instance 
+
+encapsulation   data and actions in a package (class->instance)
+
+the data in the object is called instance field
+functions are called method 
+all the data together is called state
+
+(inheritance   class -> another class)
+
+
+any change sent to the object can change the state of the object
+
+oop
+
+behavior
+state
+identity
+
+
+to create an object 
+
+start from designing the field and then add methods according to the data
+
+
+relationships between classes
+
+uses-a dependence coupling - decoupling
+has-a aggregation
+is-a inheritance
+
+
+private instance field to make sure the encapsulation
+
+constructor same name as class
+can be more than one
+may have any parameter
+has no return value
+always used with new 
+
+private data field
+public get /set methods 
+
+to return a variable data field 
+return the clone of the object instead
+
+
+final used in primitive or immutable
+
+
+static 
+class Employee{
+    private static int nextId = 1;
+    private int id ;
+}
+
+
+main function in an object can be used to test the class
+
+
+call by value  (always in java
+call by reference
+
+
+overloading 
+overloading resolution
+
+return value is not part of the overloading
+
+which means that with the same name and parameters there can be two methods that return different types of values
+
+
+public Employee(String aName, double aSalary){
+    name = aName;
+    salary = aSalary;
+}
+
+
+how to design a class 
+1 private data
+2 initialize the variables 
+3 no too many basic types of data
+4 not all the fields need set or get methods
+5 divide the class into some classes
+6 name of the class and the method should reveal the duty of them
+7 use those class that cannot be changed in priority
+
