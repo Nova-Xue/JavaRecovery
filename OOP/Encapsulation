@@ -65,10 +65,10 @@ call by reference
 
 
 overloading 
+
 overloading resolution
 
 return value is not part of the overloading
-
 which means that with the same name and parameters there can be two methods that return different types of values
 
 
@@ -87,3 +87,8 @@ how to design a class
 6 name of the class and the method should reveal the duty of them
 7 use those class that cannot be changed in priority
 
+initializition block
+{
+    id=nextId;
+    nextId++;
+}

@@ -17,8 +17,96 @@ override
 super.getSalary()
 
 
-Polymorphism
+overload and override 
 
-instanceof 
+overload same name different arguments constructor
 
-abstract class
+override child class changes super class constructor
+
+
+
+Polymorphism/多态　
+
+
+the constructor of superclass has argument 
+child class has to call the constructor with argument
+
+final function to prevent overriding in inheritance
+
+force type conversion  check instanceof 
+
+abstract class 
+
+contains abstract method (method name only , no implementation)
+
+abstract class can not have instance
+
+public  - all 
+
+(protected internal) 
+protected/internal  - package and chlid class 
+
+(nothing/default)  - package
+
+private  - class 
+
+Object - superclass of all the classes
+
+Object.equals(); - check class
+
+hashcode();
+
+the hash of String is by the value 
+so 
+String t = "Ok";
+String s = new String("Ok");
+
+they have the same hash
+
+toString();
+
+
+ArrayList <Class> name = new ArrayList<Class>();
+name.add();
+name.ensureCapactiy(100);
+or new ArrayList<Class>(100);
+name.size(); //a.length in array
+
+name.trimToSize();
+
+name.set(i,e);
+name.get(i);//return Object not Class
+
+Class e = (Class)name.get(i);
+
+name.add(i,e);
+name.remove(i);
+
+wrapper
+
+Integer
+autoboxing/autowrapping
+
+multi arguments
+
+public static double max(double ... values)
+{
+    double largest = Double.NEGATIVE_INFINITY;
+    for(double v : values)if(v>largest) largest=v;
+    return largest;
+}
+
+enum 
+
+reflective
+
+inheritance design :
+
+1 public fields and methods in superclass
+2 do not use protected fields
+3 is-a
+4 if inheritance is meaningless , do not use inheritance
+5 do not change the expected action of the method overrided
+6 use Polymorphism ( overload instead of type check )
+7 do not use reflective too much
+
