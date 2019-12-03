@@ -1,0 +1,47 @@
+all erros come from Throwable(inheritance)
+and divide into two 
+Erro and Exception
+
+Exception -> RuntimeException and others
+
+RunTimeExpection {
+
+    1 wrong type conversion
+    2 array out of length
+    3 null pointer
+}
+others{
+
+    1 read data after the end of file
+    2 open a file that donesnt exist
+    3 find a not existing class by string 
+
+}
+
+
+Erro and RuntimeException -> unchecked 
+others -> checked
+
+
+new instance of erro and throw 
+
+try{
+    
+    code1;
+    code2;
+    erro1;
+    code3;
+
+}catch (ExceptionType e){
+    cdoe catch;
+}
+finally{
+    code final;
+}
+
+when meet erro1 skip to catch 
+code3 won't run
+
+after catch finally will run
+
+

@@ -1,0 +1,11 @@
+interface gives only description 
+a class can implement one or many interface with lambda function
+
+interface has no instance field 
+
+
+inner class  
+has access to the instance field of where it's defined
+
+is cancealed from other class in the same package
+
